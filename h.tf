@@ -10,3 +10,5 @@ resource "azurerm_network_security_rule" "tester1667" {
      destination_address_prefix  = "*"
      resource_group_name         = azurerm_resource_group.glints.name
      network_security_group_name = azurerm_network_security_group.glints.name
+     
+}
