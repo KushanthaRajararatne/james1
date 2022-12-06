@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM nginx:1.22.1
 RUN rm /etc/nginx/conf.d/*
 COPY nginx.conf /etc/nginx/nginx.conf
 RUN groupadd -r www-data && \
